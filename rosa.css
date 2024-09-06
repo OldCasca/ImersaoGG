@@ -1,0 +1,39 @@
+/* ... (código anterior) ... */
+
+body {
+    /* ... */
+    background-color: #F2E8F0; /* Rosa claro para o fundo */
+    color: #7D447D; /* Rosa mais escuro para o texto */
+  }
+  
+  h1 {
+    /* ... */
+    color: #D81B60; /* Rosa vibrante para os títulos */
+  }
+  
+  section button {
+    /* ... */
+    background-color: #E980FA; /* Rosa vibrante para os botões */
+    color: #FFFFFF; /* Branco para contraste */
+  }
+  
+  .item-resultado {
+    /* ... */
+    background: #F2F2F2; /* Rosa bem claro para os itens */
+  }
+  
+  .item-resultado h2 {
+    /* ... */
+    color: #D81B60; /* Rosa vibrante para os títulos dos itens */
+  }
+  
+  .item-resultado a {
+    /* ... */
+    color: #E980FA; /* Rosa vibrante para os links */
+  }
+  
+  footer {
+    /* ... */
+    background-color: #E1B1BA; /* Rosa pastel para o rodapé */
+    color: #FFFFFF; /* Branco para contraste */
+  }
