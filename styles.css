@@ -14,21 +14,6 @@ body {
     padding: 0; /* Remove o padding padrão */
 }
 
-body::before {
-    content: ""; /* Cria um pseudo-elemento vazio */
-    position: absolute; /* Posiciona o elemento absolutamente */
-    top: 0; /* Posiciona o topo no início do container */
-    left: 0; /* Posiciona o lado esquerdo no início do container */
-    width: 100%; /* Define a largura como 100% do container */
-    height: 100%; /* Define a altura como 100% do container */
-    background-image: url(fundo.jpg) ; /* Define a imagem de fundo */
-    background-repeat: repeat; /* Impede a repetição da imagem */
-    background-size:50px; /* Faz a imagem cobrir toda a área */
-    background-position: top; /* Centraliza a imagem */
-    opacity: 0.5; /* Define a opacidade para 50% */
-    z-index: -1; /* Posiciona o elemento abaixo dos outros */
-}
-
 /* Estiliza os títulos h1 */
 h1 {
     font-size: 2.5rem; /* Tamanho da fonte */
